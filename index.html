@@ -1,0 +1,195 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="profile">
+          <img src="img/S__11911249.jpg" alt="Profile Picture" />
+          <h1>Chaipat Vannapong</h1>
+          <!-- <h2>Software Developer</h2> -->
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a software developer with 2 years of experience creating
+            responsive websites and web applications. I am proficient in HTML,
+            CSS, JavaScript, C# ,SQL server and have experience with various
+            frameworks such as JQuery, ASP.NET.
+          </p>
+          <p>
+            My passion lies in creating highly functional and stable websites
+            and applications that perform at their best. In my free time, I
+            enjoy exploring new topics, such as learning from Youtube videos.
+          </p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>Programming languages : HTML, CSS, Javascript, and C#</li>
+            <li>
+              Frameworks : ASP.NET CORE, JQUERY, Devexpress library, and
+              Bootstrap library
+            </li>
+            <li>Database : Microsoft SQL Server</li>
+            <li>Tools : Git, Jira</li>
+          </ul>
+        </div>
+      </section>
+      <section id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="experience-item">
+            <h3>Web Application Developer</h3>
+            <h4>Software Developer Senior Com Co., Ltd.</h4>
+            <p class="date">October 2021 – Present</p>
+            <ul>
+              <li>
+                Collaborated with teams to identify and resolve technical
+                issues.
+              </li>
+              <li>
+                Using various programming languages, such as HTML, CSS,
+                JavaScript, And C# to write software code.
+              </li>
+              <li>
+                Learned how to design software systems using object-oriented
+                principles, including encapsulation, inheritance, and
+                polymorphism.
+              </li>
+              <li>
+                Designing and implementing algorithms and data structures to
+                solve various problems and improve software performance.
+              </li>
+              <li>
+                Designing MVC (Model-View-Controller),experience with web
+                development frameworks such as ASP.NET.
+              </li>
+              <li>
+                Design and optimize database schemas, write efficient SQL
+                queries.
+              </li>
+              <li>
+                Designing and implementing software architectures that are
+                scalable, maintainable, and efficient.
+              </li>
+              <li>
+                Version control: using version control systems such as Git and
+                Jira to manage changes to software code and collaborate with
+                other developers.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="education-item">
+            <h3>
+              Bachelor of Business Administration in Culinary Arts and Kitchen
+              Management
+            </h3>
+            <h4>Dusit Thani College</h4>
+            <h5 class="date">August 2017-March 2021</h5>
+            <p>
+              Organizational Management : the study of how organizations are
+              structured and managed, and how they can be improved to achieve
+              their goals effectively and efficiently. It covers topics such as
+              leadership, communication, decision-making, motivation, and
+              strategic planning.
+            </p>
+            <p>
+              Entrepreneurship : identifying an opportunity, developing a
+              business plan, raising capital, and managing the day-to-day
+              operations of the business.
+            </p>
+          </div>
+          <div class="education-item">
+            <h3>Online Courses and Certifications</h3>
+            <h4>Various Platforms</h4>
+            <h5 class="date">Present</h5>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>English Course : Higher Intermediate for 15 weeks in London- KAPLAN</span>
+                <div class="progress score-bar">
+                  <div class="progress-bar score-bar-fill" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    100%
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>The Complete JavaScript Course 2023: From Zero to Expert! - Udemy</span>
+                <div class="progress score-bar">
+                  <div class="progress-bar score-bar-fill" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                    55%
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>IT Support: Google Certificate - Coursera</span>
+                <div class="progress score-bar">
+                  <div class="progress-bar score-bar-fill" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    50%
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© 2023 Chaipat Vannapong</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

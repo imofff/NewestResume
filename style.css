@@ -1,0 +1,242 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+header {
+  background-color: #f8f8f8;
+  padding: 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #555;
+  transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+  color: #333;
+}
+
+/* Section styles */
+section {
+  padding: 50px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #444;
+}
+
+section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+section p {
+  margin-bottom: 15px;
+  color: #555;
+}
+/* Add a hover effect to experience and education items */
+.experience-item:hover,
+.education-item:hover {
+  background-color: #f2f2f2;
+}
+
+.experience-item h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.experience-item h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.experience-item li:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+
+.date {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.education-item h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.education-item h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.education-item p:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+
+.skills-item {
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Form styles /
+/ Add a background color and border-radius to form elements */
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  color: #555;
+}
+/* Add a hover and focus effect to form elements */
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #555;
+}
+
+button[type="submit"] {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* Add a hover effect to submit button */
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.score-bar {
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ff9800;
+  transition: width 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.score-percent {
+  font-size: 0.8rem;
+  color: #888;
+  font-weight: bold;
+}
+
+/* Custom styles for the progress bar */
+.progress {
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 12px;
+}
+
+.progress-bar {
+  background-color: #ff9800;
+  border-radius: 10px;
+  transition: width 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
